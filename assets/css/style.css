@@ -5,7 +5,39 @@
 }
 
 
-.probando{
+body{
     font-family:  "Indie Flower", cursive;
     
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2C235A;
+    color: #fff;
+}
+/* Barra de navegacion */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu li{
+    list-style: none;
+}
+
+
+.brand h2{
+    color: #5DADE2;
+}
+.brand span{
+    color:#9B59B6
 }
