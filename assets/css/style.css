@@ -6,7 +6,7 @@
 
 /* Versión mobile */
 body{
-    font-family:  "Indie Flower", cursive;
+    font-family: "Bad Script", cursive;
     width: 100vw;
     height: 100vh;
     background-color: #2C235A;
@@ -14,17 +14,16 @@ body{
 }
 /* Barra de navegacion */
 
-.brand h2{
-    color: 	#04f5a6;
-}
-.brand h2 span{
-    color:#9B59B6
+.brand img {
+    width: 80px;
+    border-radius: 14px;
 }
 .navbar {
     grid-area: nav;
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    background-color: #4A235A;
 }
 .menu {
     display: flex;
@@ -56,10 +55,6 @@ h1 {
     color:#04f5a6 ;
 }
 
-h1 span {
-    color: 	#9B59B6;
-
-}
 .hero p {
     text-align: center;
 }
@@ -70,11 +65,11 @@ h1 span {
     border-radius: 8px;
     margin-top: 5px;
     cursor:pointer;
-    background-color: 	#04f5a6;
+    background-color: 	#4A235A;
 }
 
 .descargar_cv:hover {
-    background-color: #9B59B6;
+    background-color: #04f5a6;
 }
 
 .info {
@@ -87,7 +82,7 @@ h1 span {
 .info img {
     width: 140px;
     border: 4px solid #04f5a6;
-    border-radius: 5px;
+    border-radius: 60px;
     align-items: center;
 }
 
@@ -95,6 +90,7 @@ h1 span {
 
 main {
     grid-area: main;
+    background-color: #154360;
 
 }
 .galeria{
@@ -115,12 +111,14 @@ main {
     flex-wrap: wrap;
     flex-grow: 1;
     margin: 4px;
-    border: solid 1px #0000ff;
+    border: solid 2px #4A235A;
+    border-radius: 10px;
 }
 .tarjeta img{
     width: 100%;
     object-fit: contain;
     height: 200px;
+    border-radius: 30px;
 
 }
 .contenido{
@@ -142,13 +140,14 @@ section {
 }
 
 .container {
-    background-color:#154360;
+    background-color:#4A235A;
     width: 50%;
     height: 60px;
     color: #04f5a6;
     border-radius: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 4px;
 }
 
@@ -160,7 +159,17 @@ section {
 
 footer {
     grid-area: footer;
+    background-color: #4A235A;
+    color: #04f5a6;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    
+}
+footer p {
+    text-align: center;
+    text-decoration: none;
 }
 
 .grid-container {
@@ -168,3 +177,5 @@ footer {
     grid-template-areas: "nav" "hero" "main" "section" "footer";
     grid-template-columns: 1fr;
 }
+
+/* versión de escritorio */
